@@ -1,5 +1,7 @@
-// Global app controller
-import x from '../../test';
-const num  = 23;
+import Search from './models/Search';
 
-console.log(x + "Hahaha" `Hello ${num}`);
+
+const search = new Search('pizza');
+
+console.log(search);
+search.getResults();
